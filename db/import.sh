@@ -4,7 +4,7 @@ DRIVER="com.mysql.jdbc.Driver"
 CLASSPATH="liquibase-3.4.1-bin/jdbc-driver/mysql-connector-java-5.0.8-bin.jar"
 CONNECTION_STRING="jdbc:mysql://localhost/$DB?useUnicode=true&characterEncoding=UTF-8"
 DB_USER="root"
-DB_PASS="!Prisoner31!"
+DB_PASS="'!Prisoner31!'"
 
 if [[ -n "$1" ]]; then
     mysql -u$DB_USER -p$DB_PASS -e "DROP DATABASE IF EXISTS $DB;"
