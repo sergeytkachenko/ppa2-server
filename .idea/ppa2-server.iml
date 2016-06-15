@@ -7,11 +7,9 @@
     <orderEntry type="module-library">
       <library name="PHARS">
         <CLASSES>
-          <root url="phar://$MODULE_DIR$/api/app/tests/phpunit.phar/" />
           <root url="phar://$MODULE_DIR$/api/composer.phar/" />
         </CLASSES>
         <SOURCES>
-          <root url="phar://$MODULE_DIR$/api/app/tests/phpunit.phar/" />
           <root url="phar://$MODULE_DIR$/api/composer.phar/" />
         </SOURCES>
       </library>
