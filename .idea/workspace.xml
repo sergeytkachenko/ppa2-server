@@ -1,85 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7cad2ccd-0dac-4d2d-b47c-bd9d92fa5886" name="Default" comment="added data">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/app/models/Activities.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/app/models/ActivitiesMethodists.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/app/models/ActivitiesTargetGroups.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/app/models/AnswerTypes.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/app/models/Answers.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/app/models/AutocapitalBaseModel.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/app/models/Brands.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/app/models/BrandsMethodists.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/app/models/BrandsTargetGroups.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/app/models/CalculationMethods.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/app/models/Cities.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/app/models/Company.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/app/models/Config.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/app/models/Countries.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/app/models/Courses.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/app/models/CoursesActivities.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/app/models/CoursesBrands.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/app/models/CoursesCountries.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/app/models/CurrencyTypes.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/app/models/DealerStatuses.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/app/models/Dealers.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/app/models/DealersActivities.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/app/models/DealersBrands.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/app/models/DealersControllers.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/app/models/Educations.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/app/models/Equipments.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/app/models/EstimationMethods.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/app/models/Feedback.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/app/models/LogChangeGroups.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/app/models/LogChanges.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/app/models/Posts.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/app/models/PostsTargetGroups.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/app/models/Programs.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/app/models/ProgramsTopics.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/app/models/QualificationLevels.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/app/models/Questions.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/app/models/Regions.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/app/models/Stafflist.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/app/models/StafflistGroup.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/app/models/StafflistPostPlan.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/app/models/StudyClasses.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/app/models/StudyClassesEquipments.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/app/models/StudyPlan.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/app/models/StudyPlanPrograms.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/app/models/StudyPlanTopics.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/app/models/TargetGroups.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/app/models/TargetGroupsTrainView.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/app/models/Topics.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/app/models/TopicsDashboard.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/app/models/TopicsEstimationMethods.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/app/models/TopicsMarks.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/app/models/TopicsRecommendedPeriods.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/app/models/TopicsStudyPlanTrainView.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/app/models/TopicsStudyPlanView.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/app/models/TopicsTrain.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/app/models/TopicsTrainActivity.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/app/models/TopicsTrainBrands.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/app/models/TopicsTrainPosts.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/app/models/TopicsTrainQualificationLevels.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/app/models/TopicsTrainView.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/app/models/TopicsTypes.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/app/models/Trainings.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/app/models/TrainingsEstimationMethods.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/app/models/TrainingsMarks.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/app/models/TrainingsUsers.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/app/models/Translations.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/app/models/UserAuthorization.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/app/models/UsersCertifications.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/app/models/UsersEducations.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/app/models/UsersPosts.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/app/models/UsersStatuses.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/app/models/UsersWorkExperience.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/db/sql/data.sql" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/db/sql/translations.sql" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/db/sql/views.sql" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/ppa2-server.iml" afterPath="$PROJECT_DIR$/.idea/ppa2-server.iml" />
+    <list default="true" id="7cad2ccd-0dac-4d2d-b47c-bd9d92fa5886" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ppa2-server.iws" />
@@ -126,7 +49,7 @@
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="4" selection-start-line="0" selection-start-column="4" selection-end-line="0" selection-end-column="4" />
+              <caret line="0" column="5" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -387,7 +310,7 @@
       <updated>1466025773725</updated>
       <workItem from="1466025775018" duration="212000" />
       <workItem from="1466026104621" duration="1134000" />
-      <workItem from="1466027250377" duration="2049000" />
+      <workItem from="1466027250377" duration="2078000" />
     </task>
     <task id="LOCAL-00001" summary="fix">
       <created>1466027994936</created>
@@ -417,11 +340,18 @@
       <option name="project" value="LOCAL" />
       <updated>1466028895452</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="fix">
+      <created>1466029455051</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1466029455051</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3395000" />
+    <option name="totallyTimeSpent" value="3424000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="4" y="23" width="1276" height="777" extended-state="6" />
@@ -451,9 +381,9 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="fix" />
     <MESSAGE value="added data" />
-    <option name="LAST_COMMIT_MESSAGE" value="added data" />
+    <MESSAGE value="fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -619,7 +549,7 @@
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="4" selection-start-line="0" selection-start-column="4" selection-end-line="0" selection-end-column="4" />
+          <caret line="0" column="5" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
           <folding />
         </state>
       </provider>
