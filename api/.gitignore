@@ -1,0 +1,8 @@
+app/cache
+.phalcon
+public/cache
+app/config/config.php
+app/config/config-pt.php
+app/logs
+vendor
+composer.lock

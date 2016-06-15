@@ -1,0 +1,6 @@
+generate.sh
+import-data.sh
+generate.bat
+import-data.bat
+liquibase.properties
+changelogs/diff.xml
