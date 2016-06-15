@@ -8,7 +8,7 @@ DB_PASS="!Prisoner31!"
 
 if [[ -n "$1" ]]; then
     mysql -u$DB_USER -p$DB_PASS -e "DROP DATABASE IF EXISTS $DB;"
-	mysql -u$DB_USER -p$DB_PASS -e "CREATE DATABASE $DB CHARACTER SET utf8 COLLATE utf8_general_ci;"
+    mysql -u$DB_USER -p$DB_PASS -e "CREATE DATABASE $DB CHARACTER SET utf8 COLLATE utf8_general_ci;"
 fi
 
 ./liquibase-3.4.1-bin/liquibase --changeLogFile="changelogs/structure.xml" \

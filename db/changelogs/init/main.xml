@@ -3,5 +3,5 @@
     <include file="changelogs\init\tables.xml"></include>
     <include file="changelogs\init\indexes.xml"></include>
     <include file="changelogs\init\foreign-keys.xml"></include>
-    <!--<include file="changelogs\init\data.xml"></include>-->
+    <include file="changelogs\init\data.xml"></include>
 </databaseChangeLog>
