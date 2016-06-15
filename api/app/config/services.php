@@ -78,3 +78,21 @@ $di->set('router', function () {
 
 	return $router;
 });
+
+$di->set('view', function () use ($config) {
+	$view = new View();
+	$view->registerEngines(array(
+		'.volt'  => function ($view, $di) use ($config) {
+			$volt = new VoltEngine($view, $di);
+			$volt->setOptions(array(
+				'compiledPath'      => $config->application->cacheDir,
+				'compiledSeparator' => '_',
+				'stat'              => true,
+				'compileAlways'     => true
+			));
+			return $volt;
+		},
+		'.phtml' => 'Phalcon\Mvc\View\Engine\Php'
+	));
+	return $view;
+}, true);
