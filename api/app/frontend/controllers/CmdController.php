@@ -1,9 +1,9 @@
 <?php
 namespace Multiple\Frontend\Controllers;
 
-class ImportController extends ControllerBase
+class CmdController extends ControllerBase
 {
-	public function indexAction() {
+	public function restoreDbAction() {
 		$dbPath = realpath(PUBLIC_PATH . '/../../db/');
 		$importFile = realpath($dbPath . '/import.sh');
 		$cmd = 'cd ' . $dbPath . ' && ' . $importFile . ' --restore-db';
@@ -14,5 +14,14 @@ class ImportController extends ControllerBase
 		);
 	}
 
+	public function gitPullAction() {
+		$projectPath = realpath(PUBLIC_PATH . '/../../');
+		$cmd = 'cd ' . $projectPath . ' && git pull';
+		return array(
+			'success' => true,
+			'msg' => shell_exec($cmd),
+			'cmd' => $cmd
+		);
+	}
 }
 
