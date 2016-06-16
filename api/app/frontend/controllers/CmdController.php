@@ -23,5 +23,15 @@ class CmdController extends ControllerBase
 			'cmd' => $cmd
 		);
 	}
+
+	public function composerUpdateAction() {
+		$projectPath = realpath(PUBLIC_PATH . '/../../api/');
+		$cmd = 'cd ' . $projectPath . ' && php composer.phar update';
+		return array(
+			'success' => true,
+			'msg' => shell_exec($cmd),
+			'cmd' => $cmd
+		);
+	}
 }
 
